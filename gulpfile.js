@@ -13,6 +13,11 @@ var autoprefixer = require('gulp-autoprefixer');
  * @constructor
  */
 function SASSStarter() {
+	/**
+     *
+     * @type {Object}
+     * @private
+     */
     this._config = {};
 }
 
