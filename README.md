@@ -6,9 +6,10 @@
 
 ## Installation steps
 
-0. cd ./sass-starter/
-1. sudo npm install -g gulp
-2. npm install
+0. git clone https://github.com/rootsher/sass-starter.git
+1. cd ./sass-starter/
+2. sudo npm install -g gulp
+3. npm install
 
 ## How to run?
 
