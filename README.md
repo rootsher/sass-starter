@@ -1,5 +1,7 @@
 # sass-starter
 
+Special dedication for Compass children. Seriously you do not need Ruby.
+
 ## Required
 
 0. Node.js + npm
