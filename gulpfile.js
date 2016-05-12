@@ -63,7 +63,7 @@ SASSStarter.prototype.addTask = function addTask(taskName, dependencies, handler
 
 /**
  *
- * @param directory
+ * @param {string} directory
  */
 SASSStarter.prototype.setSASSDirectory = function setSASSDirectory(directory) {
     this._config.SASSDirectory = directory;
@@ -71,7 +71,7 @@ SASSStarter.prototype.setSASSDirectory = function setSASSDirectory(directory) {
 
 /**
  *
- * @param directory
+ * @param {string} directory
  */
 SASSStarter.prototype.setCSSDirectory = function setCSSDirectory(directory) {
     this._config.CSSDirectory = directory;
@@ -79,7 +79,7 @@ SASSStarter.prototype.setCSSDirectory = function setCSSDirectory(directory) {
 
 /**
  *
- * @param fileMatch
+ * @param {string} fileMatch
  */
 SASSStarter.prototype.setSASSFileMatch = function setSASSFileMatch(fileMatch) {
     this._config.fileMatch = fileMatch;
@@ -87,7 +87,7 @@ SASSStarter.prototype.setSASSFileMatch = function setSASSFileMatch(fileMatch) {
 
 /**
  *
- * @param options
+ * @param {Object} options
  */
 SASSStarter.prototype.setSASSCompileOptions = function setSASSCompileOptions(options) {
     this._config.SASSCompileOptions = options;
@@ -95,7 +95,7 @@ SASSStarter.prototype.setSASSCompileOptions = function setSASSCompileOptions(opt
 
 /**
  *
- * @param options
+ * @param {Object} options
  */
 SASSStarter.prototype.setAutoPrefixerOptions = function setSASSCompileOptions(options) {
     this._config.autoPrefiexerOptions = options;
@@ -103,7 +103,7 @@ SASSStarter.prototype.setAutoPrefixerOptions = function setSASSCompileOptions(op
 
 /**
  *
- * @param fileName
+ * @param {string} fileName
  */
 SASSStarter.prototype.setSASSMainFile = function setSASSMainFile(fileName) {
     this._config.SASSMainFile = fileName;
